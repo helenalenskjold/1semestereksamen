@@ -310,8 +310,7 @@ img {
 
 .om-mig-billede {
     display: flex;
-    flex-direction: column;    
-    gap: 20px;           
+    flex-direction: column;            
     width: 50%;
     height: auto;
 }
@@ -357,8 +356,7 @@ img {
 
 .kontakt-mig-billede {
     display: flex;
-    flex-direction: column;    
-    gap: 20px;           
+    flex-direction: column;           
     width: 60%;
     height: auto;
 }

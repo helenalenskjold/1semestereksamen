@@ -80,7 +80,7 @@ nav a:hover {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
 }
@@ -178,10 +178,10 @@ img {
 
     nav ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+
     }
 
     nav li {
@@ -194,6 +194,12 @@ img {
 
     .logo {
         height: 30px; /* Mindre logo på mobilen */
+    }
+
+    .cta-button {
+    display: inline-block;
+    padding: 1px 1px;
+    font-size: 14px;
     }
 }
 

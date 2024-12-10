@@ -339,7 +339,7 @@ img {
 
 @media (max-width: 768px) {
     .container-om-mig {
-        flex-direction:column;
+        flex-direction:column-reverse;
         align-items: center;
     }
 

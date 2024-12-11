@@ -213,9 +213,13 @@ img {
     align-items: center;
     text-align: center;
     background-color: #0000FF;
-    color: #F5F5F5;
     padding: 1%;
     width: 100%;
+}
+
+.footer p {
+    color: #F5F5F5;
+    font-size: 15px;
 }
 
 .footer img {
@@ -303,7 +307,7 @@ img {
 .container-right {
     display: flex;
     justify-content: flex-start;
-    height: auto;
+    min-height: 100vh;
 }
 
 .container-right-text {

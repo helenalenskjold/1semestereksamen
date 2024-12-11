@@ -240,17 +240,17 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:center;
+    justify-content: space-between;
     width: 100%; /* Boksen fylder hele bredden */
     background-color: #c9c8cc55;
     box-shadow: 5px 5px 5px #84838338;
     text-align:left;
-    padding: 15px;
+   
     margin-bottom: 20px; /* Giver lidt afstand mellem kortene */
 }
 
 .card__image img {
-    width: 80%;
+    width: 50%;
     height: auto;
 }
 
@@ -285,21 +285,17 @@ img {
     .card {
         flex-direction: column; /* Billede over tekst på mindre skærme */
         align-items: center;
+        text-align: center;
     }
 
     .card__image img {
-        width: 100%; /* Billedet bliver mindre på små skærme */
+        width: 100%;
+        margin-bottom: 10px;
     }
 
     .card__description {
         text-align: center;
         width: 100%; /* Teksten fylder hele bredden på små skærme */
-    }
-
-    .card__button--submit {
-        margin-left: 0px; /* Justerer knappen for bedre centrering */
-        margin-top: 10px;
-        padding: 10px 25px;
     }
 }
 

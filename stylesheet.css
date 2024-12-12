@@ -293,15 +293,19 @@ img {
 
 .card__button--submit {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #0000FF;
     font-family: 'Alfa Slab One';
     font-size: 16px;
     border: none;
-    padding: 15px 35px;
+    padding: 10px 35px;
     border-radius: 40px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 20px;
+    width: auto;
 }
 
 .card__button--submit:hover {
@@ -450,14 +454,18 @@ textarea {
     min-height: 100px;
 }
 
-button {
+.button-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
     background-color: #0000ff;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+.button-contact:hover {
     background-color: #5555ff;
 }
 

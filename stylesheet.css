@@ -175,6 +175,20 @@ img {
     padding: 1px 1px;
     font-size: 14px;
     }
+
+    .text-box h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        font-family: 'Alfa Slab One';
+        line-height: 1.7;
+        font-size: 45px;
+        margin-top: 0px; 
+        margin-bottom: 0px;
+        text-align: left;
+        color: #0000FF;
+    }
 }
 
 /* Responsiv styling til små skærme (max-width 480px) */
@@ -204,6 +218,20 @@ img {
     .cta-button {
         font-size: 14px;
         padding: 8px 9px;
+    }
+
+    .text-box h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        font-family: 'Alfa Slab One';
+        line-height: 1.7;
+        font-size: 30px;
+        margin-top: 0px; 
+        margin-bottom: 0px;
+        text-align: left;
+        color: #0000FF;
     }
 }
 

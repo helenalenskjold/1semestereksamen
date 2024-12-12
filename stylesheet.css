@@ -33,7 +33,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    background: transparent;
+    background: #0000FF;
     font-family: 'Alfa Slab One';
     font-size: 25px;
 }
@@ -64,7 +64,7 @@ nav li {
 }
 
 nav a {
-    color: #0000FF;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -76,8 +76,8 @@ nav a:hover {
     display: inline-block;
     margin-top: 0px; /* For lidt luft mellem knappen og menuen */
     padding: 5px 5px;
-    background-color: #0000FF;
-    color: #fff;
+    background-color: #ffffff;
+    color: #0000FF;
     text-decoration: none;
     border-radius: 5px;
     font-size: 20px;
@@ -278,7 +278,7 @@ img {
 
 .card__image img {
     width: 62%;
-    height: auto;
+    max-height: auto;
 }
 
 .card__description {
@@ -338,13 +338,17 @@ img {
 
 .container-right-text {
     flex: 1;
-    margin-left: 10px;
-    line-height: 1.7;
+    margin-left: 25px;
+    line-height: 2,5;
+    font-family: 'Montserrat';
+    color: #000000;
+    font-size: 25px;
 }
 
 .container-right-pic {
     display: flex;
-    flex-direction: column;            
+    flex-direction: column;
+    justify-content: right;            
     width: 50%;
     height: auto;
 }
@@ -367,38 +371,21 @@ img {
         align-items: center;
     }
 
+    .container-right-pic {
+        display: flex;
+        flex-direction:column;          
+        width: auto;
+        height: auto;
+    }
+
+    .container-right-text {
+        flex: 1;
+        margin-left: 10px;
+        line-height: 1.7;
+    }
+
     .logoer {
         width: 13%;
-    }
-}
-
-/*kontakt side*/
-.container-left {
-    display: flex;
-    justify-content: flex-start;
-    height: auto;
-}
-
-.container-left-text {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    text-align: left;
-    padding: 20px;
-    font-size: 20px;
-}
-
-.container-left-pic {
-    display: flex;
-    flex-direction: column;           
-    width: 60%;
-    height: auto;
-}
-
-@media (max-width: 768px) {
-    .container-left {
-        flex-direction:column;
-        align-items: center;
     }
 }
 

@@ -273,7 +273,6 @@ img {
     background-color: #c9c8cc55;
     box-shadow: 5px 5px 5px #84838338;
     text-align:left;
-   
     margin-bottom: 20px; /* Giver lidt afstand mellem kortene */
 }
 
@@ -283,12 +282,12 @@ img {
 }
 
 .card__description {
+    text-align: left;
     font-family: 'Montserrat';
     font-size: 16px;
     color: #000000; 
     width: 100%; 
     line-height: 1.7;
-    text-align: left;
 }
 
 .card__button--submit {

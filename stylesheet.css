@@ -459,6 +459,7 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    width: auto;
     background-color: #0000ff;
     color: #fff;
     cursor: pointer;
@@ -480,13 +481,18 @@ textarea {
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        padding: 20px;
-        box-sizing: border-box;
+        padding: auto;
+        margin: 0 auto;
     }
 
     input, textarea, button {
+        display: flex; 
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+        margin: 0 auto;
         width: 200px;
-        padding: 10px;
         margin-bottom: 20px;
         border: 1px solid #ddd;
         border-radius: 4px;
@@ -501,13 +507,20 @@ textarea {
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        width: 100px;
+        padding: auto;
+        margin: 0 auto;
         box-sizing: border-box;
     }
 
     input, textarea, button {
-        width: 400px;
-        padding: 10px;
+        display: flex; 
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        padding: auto;
+        margin: 0 auto;
         margin-bottom: 20px;
         border: 1px solid #ddd;
         border-radius: 4px;

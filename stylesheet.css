@@ -401,10 +401,13 @@ img {
 }
 
 /*kontaktformular*/
-.container {
+.container-contact {
     display: flex; 
-    flex-direction:column; 
-    max-width: 1200px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .contact-form, .contact-info {
@@ -413,15 +416,15 @@ img {
     background: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .contact-form {
-    max-width: 50%; /* Formular fylder halvdelen af siden */
+    width: 60%;
+    margin: 0 auto;
 }
 
 .contact-info {
-    max-width: 40%; /* Kontaktinfo fylder lidt mindre end formularen */
+    width: 40%; 
 }
 
 form {
@@ -434,11 +437,13 @@ label {
 }
 
 input, textarea, button {
+    width: 700px;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: 16px;
+    font-family: 'Montserrat';
 }
 
 textarea {
@@ -457,6 +462,48 @@ button:hover {
 }
 
 .contact-info p {
+    word-wrap: break-word;
     margin: 5px 0;
-    
+}
+
+@media (max-width: 480px) {
+    .container-contact {
+        display: flex; 
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    input, textarea, button {
+        width: 200px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }    
+}
+
+@media (max-width: 768px) {
+    .container-contact {
+        display: flex; 
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    input, textarea, button {
+        width: 400px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        font-size: 16px;
+        font-family: 'Montserrat';
+    }    
 }

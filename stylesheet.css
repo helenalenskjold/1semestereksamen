@@ -278,7 +278,7 @@ img {
 }
 
 .card__image img {
-    width: 50%;
+    width: 62%;
     height: auto;
 }
 
@@ -322,7 +322,6 @@ img {
 
     .card__image img {
         width: 100%;
-        margin-bottom: 10px;
     }
 
     .card__description {
@@ -518,7 +517,7 @@ textarea {
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        width: 200px;
+        width: 400px;
         padding: auto;
         margin: 0 auto;
         margin-bottom: 20px;

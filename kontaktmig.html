@@ -21,24 +21,34 @@
         </div>
     </header>
 <body>
-   <div class="text-box">
-    <h1>Kontakt mig!</h1>
-   </div>
-   <div class="container-left">
-        <div class="container-left-pic">
-            <img src="img/foto.jpg">
-        </div>
-        <div class="container-left-text">
-            <p>💌lenskjold2000@gmail.com</p>
-            <p>📍Odense, Danmark</p>
-            <p><b>Du kan også finde mig på de sociale medier!</b></p>
-            <p>📱instagram: @helenalenskjold</p>
-            <p>🖥️linkedin: Helena Lenskjold</p>
-            <p><b>Find direkte links nedenunder i footeren!</b></p>
-        </div>
-   </div>  
+    <div class="text-box">
+        <h1>Kontakt mig!</h1>
+    </div>
+    <div class="container-contact">
+        <form action="/send" method="POST">
+            <label for="name">Navn</label>
+            <input type="text" id="name" name="name" placeholder="Indtast dit navn" required>
 
-<<footer>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Indtast din email" required>
+
+            <label for="message">Besked</label>
+            <textarea id="message" name="message" placeholder="Skriv din besked her..." required></textarea>
+
+            <button type="submit">Send besked</button>
+        </form>
+    </div>
+    <div class="contact-info">
+        <p>💌lenskjold2000@gmail.com</p>
+        <p>📍Odense, Danmark</p>
+        <p><b>Du kan også finde mig på de sociale medier!</b></p>
+        <p>📱instagram: @helenalenskjold</p>
+        <p>🖥️linkedin: Helena Lenskjold</p>
+        <p><b>Find direkte links nedenunder i footeren!</b></p>
+    </div>
+</div>  
+     
+<footer>
     <div class="footer">
         <p> 
             <a href="https://www.instagram.com/helenalenskjold" target="_blank">

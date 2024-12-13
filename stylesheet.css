@@ -242,7 +242,7 @@ img {
     text-align: center;
     background-color: #0000FF;
     padding: 1%;
-    width: 100%;
+    max-width: 100%;
 }
 
 .footer p {
@@ -283,18 +283,20 @@ img {
 
 .card__description {
     text-align: left;
-    font-family: 'Montserrat';
-    font-size: 16px;
-    color: #000000; 
+    font-family: 'Alfa Slab One';
+    font-size: 26px;
+    color: #0000FF; 
     width: 100%; 
     line-height: 1.7;
+
 }
 
 .card__button--submit {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align:center;
     color: #0000FF;
     font-family: 'Alfa Slab One';
     font-size: 16px;
@@ -303,9 +305,10 @@ img {
     border-radius: 40px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin: 20px;
     width: auto;
+    margin-right: 20px;
 }
+
 
 .card__button--submit:hover {
     background-color: #4981f2;
@@ -324,8 +327,18 @@ img {
     }
 
     .card__description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         text-align: center;
-        width: 100%; /* Teksten fylder hele bredden på små skærme */
+        width: 100%;
+    }
+
+    .card__button--submit {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 0;
     }
 }
 

@@ -303,7 +303,8 @@ img {
     justify-content: center;
     align-items: center;
     text-align:center;
-    color: #0000FF;
+    background-color: #0000ff;
+    color: #fff;
     font-family: 'Alfa Slab One';
     font-size: 16px;
     border: none;
@@ -345,6 +346,10 @@ img {
         flex-direction: column;
         justify-content: center;
         margin-right: 0;
+        margin-bottom: 25px;
+        background-color: #0000ff;
+        color: #fff;
+        transition: background-color 0.3s ease;
     }
 }
 

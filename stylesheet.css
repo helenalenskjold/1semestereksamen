@@ -254,6 +254,12 @@ img {
     max-height: 25px;
 }
 
+.hero {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
 /*styling på forside billeder*/
 .containerfp {
     display: flex;
@@ -278,7 +284,7 @@ img {
 
 .card__image img {
     width: 62%;
-    max-height: auto;
+    max-height: 100%;
 }
 
 .card__description {
@@ -352,7 +358,7 @@ img {
 .container-right-text {
     flex: 1;
     margin-left: 25px;
-    line-height: 2,5;
+    line-height: 2;
     font-family: 'Montserrat';
     color: #000000;
     font-size: 25px;
@@ -479,7 +485,7 @@ textarea {
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        padding: auto;
+        padding:40px;
         margin: 0 auto;
     }
 
@@ -488,7 +494,7 @@ textarea {
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        padding: auto;
+        padding: 9px;
         margin: 0 auto;
         width: 200px;
         margin-bottom: 20px;
@@ -506,7 +512,7 @@ textarea {
         justify-content: center;
         align-items: center;
         width: 100px;
-        padding: auto;
+        padding: 10px;
         margin: 0 auto;
         box-sizing: border-box;
     }
@@ -517,7 +523,7 @@ textarea {
         justify-content: center;
         align-items: center;
         width: 400px;
-        padding: auto;
+        padding: 10px;
         margin: 0 auto;
         margin-bottom: 20px;
         border: 1px solid #ddd;

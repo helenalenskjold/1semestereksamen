@@ -91,9 +91,9 @@ nav a:hover {
 }
 
 /*body*/
-img {
+.hero {
     max-width: 100%;
-    display: block;
+    height: auto;
 }
 
 /* Tekstbox styling */
